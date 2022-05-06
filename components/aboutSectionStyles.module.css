@@ -1,0 +1,97 @@
+.sectionWrap {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: 50% 100% !important;
+}
+
+
+.sectionWrap :global(.reset-next-img.section-icon span) {
+    width: 100px !important;
+    margin: 0 auto !important;
+}
+
+.sectionWrap :global(h1) {
+    font-family: 'Polaris';
+}
+
+.patternWrap {
+    overflow-x: hidden;
+}
+
+.patternWrap span {
+    bottom: unset !important;
+    left: unset !important;
+    right: unset !important;
+    overflow: unset !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.left span {
+    right: 0!important;
+}
+
+.right span {
+    left: 0!important;
+}
+
+.patternWrap img {
+    position: unset !important;
+    height: 90px !important;
+    width: auto !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    max-width: unset !important;
+    max-height: unset !important;
+}
+
+@media screen and (max-width: 490px) {
+    .patternWrap img {
+        height: 60px !important;
+    }
+}
+
+.videoWrap {
+    height: 350px;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.videoWrap iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+@media screen and (min-width: 972px) {
+    .videoWrap {
+        height: 500px;
+    }
+}
+
+.sectionWrap :global(.about-section-torch) {
+    min-width: unset !important;
+    max-width: unset !important;
+    min-height: unset !important;
+    max-height: unset !important;
+    width: 60% !important;
+}
+
+.mainAboutContent p {
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1190px) {
+.sectionWrap :global(.about-section-torch) {
+    width: 90% !important;
+}
+
+.mainAboutContent p {
+    font-size: 0.9rem;
+    padding-top: 60px;
+}
+}
+
+

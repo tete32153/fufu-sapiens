@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Polaris";
+    src: url("/fonts/polaris/Polaris.woff2") format("woff2"),
+      url("/fonts/polaris/Polaris.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Cherione Bold";
+    src: url("/fonts/cherione/Cherione-Bold.otf") format("truetype"),
+      url("/fonts/cherione/Cherione-Bold.ttf") format("truetype");
+  }
+
+.wrap {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.8);
+}
+
+.wrap :global(.pseudoClose) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.content {
+    /* flex: 0 0 auto; */
+    position: relative;
+    z-index: 30px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    background-color: #1f252a;
+}
+
+.wrap :global(.modal-close-btn span) {
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.content :global(h2) {
+    font-family: "Polaris";
+}
+
+.content :global(.tnc-w) {
+    font-family: "Cherione Bold";
+    font-size: 13px;
+}
+
+.content :global(.tnc-w label) {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.content :global(.tnc-w span) {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.content :global(.tnc-w span:before) {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    display: block;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    top: 2px;
+    left: 2px;
+    right: 0;
+    bottom: 0;
+    border-radius: 1px;
+    background-color: #125751;
+}
+
+.content :global(.tnc-w input:checked ~ span:before) {
+    /* background-color: red; */
+    opacity: 1;
+}
+
+.content :global(.footer-gravatar img) {
+    max-width: 40px;
+}
+
+.content :global(.connect-modal-footer h5) {
+    font-family: "Polaris";
+}

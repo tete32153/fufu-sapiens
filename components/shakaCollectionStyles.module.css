@@ -1,0 +1,63 @@
+.sectionWrap {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: 50% 100% !important;
+}
+
+.sectionWrap :global(.about-section-torch) {
+    min-width: unset !important;
+    max-width: unset !important;
+    min-height: unset !important;
+    max-height: unset !important;
+    width: 60% !important;
+}
+
+.mainAboutContent p {
+    line-height: 1.7;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1190px) {
+.sectionWrap :global(.about-section-torch) {
+    width: 90% !important;
+}
+
+.mainAboutContent p {
+    font-size: 0.9rem;
+    padding-top: 60px;
+}
+}
+
+.ourCollectionGravatar span {
+    width: 60% !important;
+    margin: 0 auto !important
+}
+
+.ourCollectionGravatar :global(span img) {
+    margin: 0 auto !important
+}
+
+
+.ourCollectionContentHeaderImg img {
+    min-width: unset !important;
+    max-width: unset !important;
+    min-height: unset !important;
+    max-height: unset !important;
+    max-width: 100px !important;
+}
+
+.ourCollectionContentW h1 {
+    font-family: "Polaris";
+}
+
+.ourCollectionContentW p {
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.ourCollectionCTA p {
+    font-family: 'Polaris';
+    font-size: 14px !important;
+}
+
+

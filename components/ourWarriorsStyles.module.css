@@ -1,0 +1,77 @@
+.sectionWrap :global(.reset-next-img span) {
+    width: 100px !important;
+    margin: 0 auto !important;
+}
+
+.sectionWrap :global(h1) {
+    font-family: 'Polaris';
+}
+
+
+.slideItem {
+    margin: 10px 30px;
+}
+
+.warriorsSlider :global(.slick-center) .slideItemImg {
+    opacity: 1;
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    transform-origin: center;
+    position: relative !important;
+}
+
+.warriorsSlider .slideItem .slideItemImg {
+    transition: all .3s ease;
+}
+
+.warriorsSlider :global(.slick-arrow) {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 30;
+    width: auto !important;
+    height: auto !important;
+    font-size: unset !important;
+}
+
+.warriorsSlider :global(.slick-arrow:before) {
+    display: none;
+}
+
+.warriorsSlider :global(.slick-arrow span) {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #D89528;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+}
+
+.warriorsSlider :global(.slick-prev) {
+    left: 50px;
+}
+
+.warriorsSlider :global(.slick-next) {
+    right: 50px;
+}
+
+.slideItem :global(.warrior-img-wrap span) {
+    width: 100% !important;
+    overflow: visible !important;
+}
+
+.slideItem :global(h3), .slideItem :global(h4) {
+    font-family: "Cherione";
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .slideItem :global(h3), .slideItem :global(h4) {
+        font-size: 17px;
+    }
+}
+
+.sliderWrap :global(.slick-slide[data-index="3"]) {
+    width: 0 !important;
+}
