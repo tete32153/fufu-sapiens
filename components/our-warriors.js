@@ -13,7 +13,7 @@ import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import OurWarriorsStyles from './OurWarriorsStyles.module.css'
+import OurWarriorsStyles from './ourWarriorsStyles.module.css'
 
 
 export default function OurWarriorsSection(){
