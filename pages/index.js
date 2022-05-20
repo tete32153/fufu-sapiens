@@ -6,6 +6,7 @@ import LandingPage from '../components/landing'
 import ShakaCollectionSection from '../components/shaka-collection'
 import AboutSection from '../components/about-section'
 import OurWarriorsSection from '../components/our-warriors'
+import RoadmapSection from '../components/roadmap'
 import Footer from '../components/footer'
 import ConnectModal from '../components/connect-modal'
 
@@ -59,6 +60,7 @@ export default function Home() {
       <ShakaCollectionSection />
       <AboutSection />
       <OurWarriorsSection />
+      <RoadmapSection/>
     </main>
 
     <Footer />

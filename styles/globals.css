@@ -111,3 +111,7 @@ p {
 .swiper-wrapper {
   transition-timing-function: linear !important;
   }
+
+::marker{
+  color: rgb(255,179,10)
+}

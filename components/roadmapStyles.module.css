@@ -1,0 +1,20 @@
+.sectionWrap :global(.reset-next-img span) {
+    width: 100px !important;
+    margin: 0 auto !important;
+}
+
+.sectionWrap :global(h1) {
+    font-family: 'Polaris';
+}
+
+.sectionWrap :global(h3) {
+    font-family: 'Polaris';
+    color: rgb(255,179,10);
+}
+
+
+@media screen and (max-width: 972px) {
+    .listWrap{
+        padding-left: 0 !important;
+    }
+}
