@@ -24,14 +24,14 @@ export default function OurWarriorsSection(){
                         be on a first come first serve basis.
                     </p>
                     <div  className={`${RoadmapStyles.listWrap}`} style={{paddingLeft:'100px'}}>
-                         <ul class="mb-4" >
+                         <ul className="mb-4" >
                         <li>Access to free web3 education</li>
                         <li>Digital art lessons</li>
                         <li>Mentorship</li>
                         <li>Career coaching</li>
                         <li>Guidance for job placements</li>
                         <li>Web3 networking opportunities</li>
-                        <ul class="mb-4" style={{paddingLeft:'50px'}}>
+                        <ul className="mb-4" style={{paddingLeft:'50px'}}>
                         <li>Through conferences that are organized by the Fufu Sapiens. QR code will be
                             airdropped to <br/>our NFT Holders which will act as tickets to our events.</li>
                         </ul>
@@ -43,7 +43,7 @@ export default function OurWarriorsSection(){
 
                     <h3 className="text-left mb-4 px-lg-5 ">CHARITY</h3>
                         <div  className={`${RoadmapStyles.listWrap}`} style={{paddingLeft:'100px'}}>
-                            <ul class="mb-4" >
+                            <ul className="mb-4" >
                             <li>5% of all mint proceeds will go to a school in Africa to teach the youth about web3</li>
                             </ul>
 
@@ -54,9 +54,9 @@ export default function OurWarriorsSection(){
                     </p>
 
                     <div  className={`${RoadmapStyles.listWrap}`} style={{paddingLeft:'100px'}}>
-                            <ul class="mb-4" >
+                            <ul className="mb-4" >
                             <li>Access to purchase Fufu Sapiens merch at a discount</li>
-                                <ul class="mb-4" style={{paddingLeft:'50px'}}>
+                                <ul className="mb-4" style={{paddingLeft:'50px'}}>
                                     <li>Fufu Sapiens Merch will be available on the Fufu
                                         Sapiens website.<br/> Our NFT holders will be
                                         airdropped a one-time passcode to their wallet
@@ -75,7 +75,7 @@ export default function OurWarriorsSection(){
                     <h3 className="text-left mb-4 px-lg-5 ">CLUB</h3>
                     <p className="mb-4 px-lg-5">Exclusive to our NFT holders via Fufu Sapiens website, this will be on a first come first serve basis</p>
                     <div  className={`${RoadmapStyles.listWrap}`} style={{paddingLeft:'100px'}}>
-                            <ul class="mb-4" >
+                            <ul className="mb-4" >
                             <li>Access to real-life events organized by Fufu Sapiens</li>
                                 {/* <ul class="mb-4" style={{paddingLeft:'50px'}}>
                                     <li>Fufu Sapiens Merch will be available on the Fufu
@@ -92,7 +92,7 @@ export default function OurWarriorsSection(){
                     </div>
                     <h3 className="text-left mb-4 px-lg-5 ">Fufu Governance Token Airdrop.</h3>  
                         <div  className={`${RoadmapStyles.listWrap}`} style={{paddingLeft:'100px'}}>
-                            <ul class="mb-4" >
+                            <ul className="mb-4" >
                             <li>A snapshot will be taken and FufuDao tokens will be airdropped to all of our NFT holders</li>
                             <li>FufuCoin will be an ERC-20 governance and utility tokenused within the Fufu ecosystem <br/> to incentivise community-building activities.</li>
                             </ul>
